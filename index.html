@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator Story</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+<style>
+    .wa-button {
+      display: inline-flex;
+      align-items: center;
+      padding: 10px 15px;
+      background-color: #25D366;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+      font-family: sans-serif;
+      transition: background-color 0.3s ease;
+    }
+
+    .wa-button:hover {
+      background-color: #1ebe5d;
+    }
+
+    .wa-button img {
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+    <div id="container">
+        <div id="input">
+            <input id="inputText" type="text" placeholder="Ketik Sesuatu">
+            <input id="button" type="button" value="Generate">
+        </div>
+        <div id="story">
+            <h1 id="judul"></h1>
+            <p id="story-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, doloremque optio. Facere accusamus optio ratione, similique recusandae vitae, tenetur eveniet aspernatur rerum doloremque, non soluta quia possimus asperiores tempora esse!
+            </p>
+        </div>  
+        <button class="wa-button" onclick="openWhatsApp()">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo">
+            Hubungi Aditya via WhatsApp
+          </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
