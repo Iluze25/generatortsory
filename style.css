@@ -19,10 +19,7 @@ body, html {
     color: rgb(196, 203, 209);
     padding: 2vw;
 }
-#story:hover{
-    background-color: rgb(140, 140, 184);
-    color:aqua;
-}
+
 #inputText {
     border: 0;
     border-radius: 1vw;
